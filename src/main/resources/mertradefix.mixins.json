@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "noobanidus.mods.mertradefix.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "lootr.refmap.json",
+  "mixins": [
+    "MixinMermorphTipsProcedure"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

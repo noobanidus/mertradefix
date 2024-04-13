@@ -1,0 +1,25 @@
+modLoader="javafml" 
+loaderVersion="[44,)"
+issueTrackerURL="https://github.com/noobanidus/mertradefix/issues"
+license="https://github.com/noobanidus/mertradefix/blob/1.20.1/LICENSE"
+[[mods]] 
+modId="mertradefix" 
+version="${version}"
+displayName="MerTradeFix" 
+displayURL="https://minecraft.curseforge.com/projects/mertradefix" 
+authors="Noobanidus"
+description='''
+Fixes translation issues with Realm RPG: Sea Dwellers.
+'''
+[[dependencies.MerTradeFix]] 
+    modId="forge" 
+    mandatory=true 
+    versionRange="[47.2.0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.MerTradeFix]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,)"
+    ordering="NONE"
+    side="BOTH"
