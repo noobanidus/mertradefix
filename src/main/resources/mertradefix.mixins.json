@@ -2,7 +2,7 @@
   "required": true,
   "package": "noobanidus.mods.mertradefix.mixins",
   "compatibilityLevel": "JAVA_17",
-  "refmap": "lootr.refmap.json",
+  "refmap": "mertradefix.refmap.json",
   "mixins": [
     "MixinMermorphTipsProcedure"
   ],
